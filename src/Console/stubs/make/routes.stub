@@ -1,0 +1,7 @@
+
+
+Route::group(['prefix' => 'system'], function(){
+    Route::get('list', 'System@category'); #分类列表
+    Route::get('detail', 'System@group'); #分类明细
+    Route::post('save', 'System@save');  #保存分类明细
+});

@@ -1,0 +1,27 @@
+{
+  "name": "wubuze/backend-system",
+  "description": "laravel backend set system",
+  "license": "MIT",
+  "keywords": ["system set", "admin setting"],
+  "require": {
+    "php": ">= 5.4",
+    "jdavidbakr/replaceable-model": "^1.0"
+  },
+  "require-dev": {},
+  "autoload": {
+      "psr-4": {
+          "Wubuze\\BackendSystem\\": "src"
+      }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Wubuze\\BackendSystem\\LaravelServiceProvider"
+      ]
+    }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "optimize-autoloader": true
+}
