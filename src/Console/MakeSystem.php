@@ -11,7 +11,7 @@ class MakeSystem extends Command
 {
 
     use DetectsApplicationNamespace;
-    protected $signature = 'make:system';
+    protected $signature = 'make:wubuze-system';
 
     protected $description = '';
 

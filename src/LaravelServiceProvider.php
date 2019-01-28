@@ -47,7 +47,7 @@ class LaravelServiceProvider extends ServiceProvider{
         $path2 = realpath(__DIR__.'/../config/system.php');
 
 //        $this->publishes([$path => config_path('storage.php')], 'wubuze-config');
-        $this->publishes([$path2 => config_path('system.php')], 'wubuze-config');
+        $this->publishes([$path2 => config_path('system.php')], 'wubuze-backend-system-config');
 
 //        $this->mergeConfigFrom($path, 'storage');
     }

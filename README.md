@@ -3,7 +3,7 @@
 ## 安装
 * composer require wubuze/backend-system
 
-- config/app.php 文件中provider 加上
+- config/app.php 文件中provider 加上 , laravel 5.5 以上可以不需要
 
 * Wubuze\BackendSystem\LaravelServiceProvider::class,
 
@@ -19,5 +19,5 @@
 
 ## 安装
 
-- make:system
+- make:wubuze-system
 
